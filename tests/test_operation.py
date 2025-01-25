@@ -3,6 +3,7 @@ from sklearn.datasets import load_breast_cancer
 import joblib
 import sys
 import os
+from sklearn.model_selection import train_test_split
 
 # Add the path to scr directory to import model.py
 #sys.path.append(os.path.abspath("C:\Users\DS\Desktop\SEM 3\MLOPS\MLOPS Assignment\MLOPS-Group-57_Assignment-1\M1-CI_CD_Pipeline\src\model.py"))
