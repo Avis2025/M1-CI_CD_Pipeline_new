@@ -1,3 +1,4 @@
+pip show scikit-learn
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.datasets import load_breast_cancer
 import joblib
